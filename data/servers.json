@@ -6655,6 +6655,24 @@
     }
   },
   {
+    "name": "FindAIforWork",
+    "url": "https://findaiforwork.com/llms.txt",
+    "description": "Read-only MCP server for a human-reviewed AI tools directory organized by work scenario: search tools, list categories, read listing details and compare tools; no account or API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "FindAIforWork",
+    "tags": [
+      "search",
+      "directory",
+      "ai-tools",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://findaiforwork.com/mcp"
+    }
+  },
+  {
     "name": "SandBase CLI",
     "url": "https://github.com/sandbaseai/cli",
     "description": "Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.",
